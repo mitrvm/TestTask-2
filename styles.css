@@ -42,3 +42,9 @@ body {
     font-size: clamp(7.5rem, 10vw, 10rem);
   }
 }
+
+@media (min-width: 1700px) {
+  .text-element {
+    font-size: clamp(2rem, 3vw, 6rem);
+  }
+}
